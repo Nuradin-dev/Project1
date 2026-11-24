@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    
+}
+.header i{
+    display: none;
+}
+.cont{
+    display: flex;
+}
+.box{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.box button{
+    width: 200px;
+    height: 40px;
+    margin-top: 15px;
+}
+.cont img{
+    width: 300px;
+    height: 300px;
+}
+.dhexe{
+    background-color: black;
+    display: flex;
+}
+.qoral{
+    display: flex;
+    color: white;
+    gap: 100px;
+   margin: auto;
+   padding: 20px;
+
+    
+    
+}
+.ciwan{
+    text-align: center;
+    background-color: lightblue;
+    
+    
+}
+
+
+.tshirt img{
+
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+.jeans img{
+    border-radius: 30px;
+     width: 200px;
+    height: 200px;
+}
+.shaar img{
+     border-radius: 30px;
+     width: 200px;
+    height: 200px;
+}
+.iskuheyn{
+    display: flex;
+    gap: 100px;
+    padding-left: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+    
+}
+.funaanad img{
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+.hoose{
+    text-align: left;
+    display: flex;
+    gap: 100px;
+    padding: 30px;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+.company ul{
+    list-style: none;
+}
+.help ul{
+    list-style: none;
+}
+.Resources ul{
+    list-style: none;
+}
+.foot{
+    width: 950;
+    height: 499;
+    background-color: gray;
+}
+
+@media screen and (max-width : 768px){
+    .header ul{
+        
+        display: none;
+        flex-direction: column;
+    }
+    .header i{
+        display: block;
+        margin-top: 20px;
+        
+    }
+    .cont  {
+        flex-direction: column;
+       
+    }
+    .cont img{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.box button{
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+.qoral{
+    flex-direction: column;
+}
+.iskuheyn{
+    flex-direction: column;
+}
+.hoose{
+    flex-direction: column;
+   padding-left: 30px;
+}
+}
+
+   
